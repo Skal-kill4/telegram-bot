@@ -52,7 +52,7 @@ async def monitor(update: Update, context):
     print(f"{user}: {text}")
 
 # تشغيل البوت
-app = ApplicationBuilder().token8795706761:AAFp7vyYr-UWWbQXeJ9rSm2NvVJ04GrJOv4.build()
+app = ApplicationBuilder().TOKEN = "8795706761:AAFp7vyYr-UWWbQXeJ9rSm2NvVJ04GrJOv4".build()
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, monitor))
 
 print("Bot is running...")
